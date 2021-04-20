@@ -29,9 +29,7 @@ function setup(){
     ball.shapeColor = rgb(255,255,255);
     //write code to add velocityX and velocityY
     ball.velocityX=-9;
-    ball.velocityY=7;
-    
-    music.loop();
+    ball.velocityY=10;
 
 }
 
@@ -51,7 +49,7 @@ function draw() {
         ball.shapeColor = "orange";
         ball.velocityX=0;
         ball.velocityY=0;
-        music.play();
+        music.stop();
     }
 
     //write code to bounce off ball from the block3
